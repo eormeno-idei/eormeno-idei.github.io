@@ -10,6 +10,7 @@ body {
     background: linear-gradient(135deg, #dd6825 0%, #3eaf83 100%);
     height: 100vh;
     overflow: hidden;
+    font-weight: 500;
 }
 
 #presentation-container {
@@ -61,33 +62,34 @@ body {
 
 /* Estilos para títulos */
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #dd6825;
     margin-bottom: 30px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h2 {
-    font-size: 2.5rem;
-    color: #3eaf83;
+    font-size: 3rem;
+    color: #2c3e50;
     margin-bottom: 25px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: #dd6825;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Estilos para párrafos y listas */
 p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.6;
-    color: #34495e;
+    color: #2c3e50;
     margin-bottom: 20px;
     max-width: 800px;
+    font-weight: 500;
 }
 
 ul {
@@ -97,12 +99,13 @@ ul {
 }
 
 li {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     color: #2c3e50;
     margin-bottom: 12px;
     padding-left: 10px;
     position: relative;
+    font-weight: 500;
 }
 
 li::before {
@@ -111,6 +114,12 @@ li::before {
     font-weight: bold;
     position: absolute;
     left: -20px;
+}
+
+/* Elementos destacados con mayor contraste */
+strong {
+    font-weight: 700;
+    color: #2c3e50;
 }
 
 /* Estilos para elementos destacados */
@@ -157,8 +166,8 @@ li::before {
     padding: 15px 30px;
     border: none;
     border-radius: 25px;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
     margin: 10px;
@@ -184,10 +193,11 @@ li::before {
     border: none;
     padding: 12px 20px;
     border-radius: 25px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-weight: 500;
+    font-weight: 600;
+    color: #2c3e50;
 }
 
 #navigation button:hover {
@@ -203,8 +213,8 @@ li::before {
 
 #slide-counter {
     color: white;
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 /* Logo y branding */
@@ -331,10 +341,9 @@ li::before {
         max-height: 200px;
         margin: 15px auto;
     }
-    
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.8rem; }
-    h3 { font-size: 1.4rem; }
-    p { font-size: 1.1rem; }
-    li { font-size: 1rem; }
+      h1 { font-size: 2.5rem; font-weight: 800; }
+    h2 { font-size: 2.2rem; font-weight: 700; }
+    h3 { font-size: 1.8rem; font-weight: 600; }
+    p { font-size: 1.3rem; font-weight: 500; }
+    li { font-size: 1.2rem; font-weight: 500; }
 }
